@@ -1,0 +1,17 @@
+1,Low-density Residential,🏠
+2,Multi-family,🏘️
+3,Commerical Retail,🏬
+4,Commercial Services,🏦
+5,Office,🏢
+6,Industrial,🏭
+7,Institutional/Medical,🏥
+8,Educational,🏫
+9,Airport,✈️
+10,Transportation,🚉
+11,Agriculture,🚜
+13,Parks and Open Space,🏞️
+14,Drainage,🌊
+15,Vacant,🏚️
+16,Utilities,🔌
+17,Community,⛪️
+20,Prison,🔒

@@ -1,0 +1,31 @@
+CREATE TABLE land_use_cat (
+    code INTEGER PRIMARY KEY,
+    desc TEXT,
+    emoji TEXT,
+    UNIQUE(code)
+);
+
+CREATE TABLE land_use (
+    code INTEGER PRIMARY KEY,
+    desc TEXT,
+    emoji TEXT,
+    UNIQUE(code)
+);
+
+CREATE TABLE street (
+    id INTEGER PRIMARY KEY,
+    name TEXT NOT NULL,
+    type TEXT NOT NULL,
+    UNIQUE(name, type)
+);
+
+CREATE TABLE destination (
+    id INTEGER PRIMARY KEY,
+    street_numb INTEGER,
+    street_id INTEGER,
+    street_side TEXT,
+    land_use INTEGER,
+    lat REAL,
+    lon REAL,
+    UNIQUE(street_numb, street_id, street_side)
+);
